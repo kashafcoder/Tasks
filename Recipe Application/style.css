@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+}
+body {
+  background-image: url(bg.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin-bottom: 10px;
+}
+#form_container {
+  margin-top: 20px;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+}
+#recipe_container {
+    border-radius: 10px;
+  border: 1px solid rgb(145, 145, 145);
+  width: 785px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.main-heading {
+  margin-top: 20px;
+  font-size: 35px;
+  font-family: "Merriweather", serif;
+  letter-spacing: 2px;
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+}
+.sub-heading{
+  margin-top: 20px;
+  font-size: 28px;
+  font-family: "Merriweather", serif;
+  letter-spacing: 2px;
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+input {
+  height: 35px;
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  letter-spacing: 1px;
+  font-family: "Merriweather", serif;
+  border-radius: 4px;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: white;
+  margin: 10px;
+}
+textarea {
+  letter-spacing: 1px;
+  font-family: "Merriweather", serif;
+  border-radius: 4px;
+  border: 1px solid rgb(0, 0, 0);
+  margin-top: 18px;
+  background-color: white;
+  margin: 10px;
+  color: rgb(0, 0, 0);
+
+}
+button {
+  width: 150px;
+  height: 42px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  border: none;
+  border-radius: 4px;
+  font-family: "Merriweather", sans-serif;
+  font-weight: bold;
+  box-shadow: -1px 3px 3px 0 rgba(56, 56, 56, 0.2);
+  text-transform: capitalize;
+  letter-spacing: 1.2px;
+  color: rgb(255, 255, 255);
+}
+button:hover {
+  opacity: 0.9;
+}
+.save {
+  background-color: #247919;
+}
+.delete{
+    background-color: #8f0f0f; 
+    margin-left: 20px;
+}
+.name{
+    margin-top: 10px;
+    font-size: 22px;
+    font-family: "Merriweather", sans-serif;
+
+}
+p{
+    font-size: 16px;
+    font-family: "Merriweather", sans-serif;
+}

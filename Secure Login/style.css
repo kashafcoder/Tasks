@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+}
+body {
+  background-color: rgb(22, 22, 22);
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 100vh;
+}
+
+#left_content {
+  width: 440px;
+  height: 540px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(204, 204, 204);
+  border-radius: 5px;
+}
+#right_content {
+  width: 440px;
+  height: 540px;
+  border: none;
+  background-image: url(woman.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+}
+
+.main-heading {
+  font-size: 31px;
+  margin-bottom: 20px;
+  font-family: "Merriweather", serif;
+  letter-spacing: 2px;
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+}
+.logo {
+  margin-top: 50px;
+}
+.login-p {
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #3b3b3b;
+  font-weight: 600;
+  font-family: "Merriweather", serif;
+  text-transform: capitalize;
+}
+.login-h1 {
+  font-size: 32px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  letter-spacing: 1.1px;
+  color: #222222;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 45px;
+  margin-top: 20px;
+  align-items: flex-start;
+  width: 300px;
+}
+label {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  letter-spacing: 1.2px;
+  font-weight: 500;
+  color: rgb(36, 36, 36);
+}
+
+.person {
+  width: 20px;
+  border: 1px solid black;
+  border-radius: 50%;
+  filter: invert(10%);
+}
+.lock {
+  width: 20px;
+  filter: invert(10%);
+}
+input {
+  width: 250px;
+  height: 32px;
+  border: 1px solid rgb(105, 105, 105);
+  border-radius: 4px;
+}
+input:hover {
+  border: 2px solid #d6bb60;
+}
+button {
+  width: 180px;
+  height: 42px;
+  margin-top: 10px;
+  margin-left: 30px;
+  background-color: #000000;
+  cursor: pointer;
+  font-size: 15px;
+  border: none;
+  border-radius: 4px;
+  font-family: "Merriweather", sans-serif;
+  font-weight: bold;
+  box-shadow: -1px 3px 3px 0 rgba(56, 56, 56, 0.2);
+  text-transform: capitalize;
+  letter-spacing: 1.2px;
+  color: white;
+}
+button:hover {
+  background-color:rgba(0, 0, 0, 0.596);
+  transition: 0.1s all ease-in-out;
+  box-shadow: -1px 3px 3px 0 rgb(83, 83, 83);
+}
+#result{
+  text-align: center;
+    margin-top: 20px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-family: "Merriweather", sans-serif;
+}

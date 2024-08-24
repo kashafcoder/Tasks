@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Secure Notes Application | Tech-Wilco | AptechMetroStarGate | DSL-2024</title>
+    <link rel="icon" href="favicon.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+
+    <div id="container">
+        <h1 class="main-heading">Secure Notes</h1>
+
+        <div id="notes_container">
+            <label>Add Notes</label>
+            <textarea  id="note" cols="60" rows="10"></textarea>
+            <button class="savebtn" onclick="saveNote()">Save Note</button>
+        </div>
+        <div id="mynote_container">
+            <label>My Notes</label>
+            <div id="mynote_list"></div>
+        </div>
+         
+  
+    </div>
+<script src="script.js"></script>
+</body>
+
+</html>

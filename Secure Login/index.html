@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="Tech-Wilco , AptechMetroStarGate , DSL-2024"
+    />
+    <title>Secure Login | Tech-Wilco | AptechMetroStarGate | DSL-2024</title>
+    <link rel="icon" href="favicon.jpeg" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-md5/2.18.0/js/md5.min.js"></script>
+    <script src="script.js"></script>
+ 
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="left_content">
+        <img class="logo" src="logo.jpg" alt="" width="200px" />
+        <h1 class="login-h1">Login</h1>
+        <p class="login-p">Please Login to your Account</p>
+        <div id="form">
+          <label for="username">
+            <span><img class="person" src="person.png" alt="" /></span>
+            Username:</label
+          >
+          <input type="text" id="username" name="username" required /><br />
+
+          <label for="password"
+            ><span><img class="lock" src="lock.png" alt="" /></span
+            >Password:</label
+          >
+          <input type="password" id="password" name="password" required /><br />
+
+          <button type="button" onclick="login()">Login</button>
+          <p id="result"></p>
+        </div>
+      </div>
+      <div id="right_content"></div>
+    </div>
+  </body>
+</html>
